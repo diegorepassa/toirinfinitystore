@@ -20,6 +20,7 @@ module.exports = {
                 'violet': '#9B1C8B',
                 'blue-gem': '#3813B4',
                 'semi-transparent': 'rgba(0, 0, 0, 0.3)',
+                'semi-transparent-blue': 'rgba(255, 255, 255, 1)',
               },
             },
   plugins: [],
