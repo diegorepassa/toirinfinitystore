@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@glidejs/glide": "^3.5.2",
+    "@lottiefiles/react-lottie-player": "^3.4.2",
     "@nextui-org/react": "^1.0.2-beta.4",
     "embla-carousel": "^6.2.0",
     "embla-carousel-react": "^6.2.0",

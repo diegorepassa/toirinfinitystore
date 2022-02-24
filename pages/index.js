@@ -8,7 +8,7 @@ import { Container, Text, css } from "@nextui-org/react";
 
 export default function Home() {
   return (
-    <div className="w-screen h-screen bg-background-default bg-center bg-cover bg-no-repeat relative">
+    <div className="w-screen h-screen relative bg-background-default bg-center bg-cover bg-no-repeat">
       <Head>
         <title>Toir Infinity Store</title>
       </Head>

@@ -1,4 +1,5 @@
-// import Swiper core and required modules
+import { Player, Controls } from "@lottiefiles/react-lottie-player";
+
 import {
   Navigation,
   Pagination,
@@ -25,14 +26,14 @@ export default function Carousel() {
       slidesPerView={2}
       loop={true}
       autoplay={{
-        delay: 2500
+        delay: 2500,
       }}
       coverflowEffect={{
         rotate: 50,
         stretch: 0,
         depth: 100,
         modifier: 1,
-        slideShadows: true,
+        slideShadows: false,
       }}
       pagination={{
         type: "progressbar",
@@ -40,23 +41,71 @@ export default function Carousel() {
       modules={[EffectCoverflow, Pagination]}
       className="mySwiper"
     >
-      <SwiperSlide className="flex flex-row items-center justify-center mt-6 bg-blue">
-        <div className="w-full h-96 bg-blue-gem flex flex-col justify-center items-center">
+      <SwiperSlide className="flex flex-row items-center justify-center mt-6">
+        <div className="w-full h-96 flex flex-col justify-center items-center bg-carousel-1 bg-center bg-contain bg-no-repeat">
+          <Player
+            autoplay
+            loop
+            src="/12766-arrow-animation.json"
+            style={{ height: "200px", width: "200px" }}
+            className="pointer-events-none"
+          >
+            <Controls
+              visible={false}
+              buttons={["play", "repeat", "frame", "debug"]}
+            />
+          </Player>
         </div>
       </SwiperSlide>
-      <SwiperSlide className="flex flex-row items-center justify-center mt-6 bg-blue">
-        <div className="w-full h-96 bg-blue-gem">
+      <SwiperSlide className="flex flex-row items-center justify-center mt-6">
+        <div className="w-full h-96 flex flex-col justify-center items-center bg-carousel-1 bg-center bg-contain bg-no-repeat">
+          <Player
+            autoplay
+            loop
+            src="/12766-arrow-animation.json"
+            style={{ height: "200px", width: "200px" }}
+            className="pointer-events-none"
+          >
+            <Controls
+              visible={false}
+              buttons={["play", "repeat", "frame", "debug"]}
+            />
+          </Player>
         </div>
       </SwiperSlide>
-      <SwiperSlide className="flex flex-row items-center justify-center mt-6 bg-blue">
-        <div className="w-full h-96 bg-blue-gem">
+      <SwiperSlide className="flex flex-row items-center justify-center mt-6">
+        <div className="w-full h-96 flex flex-col justify-center items-center bg-carousel-1 bg-center bg-contain bg-no-repeat">
+          <Player
+            autoplay
+            loop
+            src="/12766-arrow-animation.json"
+            style={{ height: "200px", width: "200px" }}
+            className="pointer-events-none"
+          >
+            <Controls
+              visible={false}
+              buttons={["play", "repeat", "frame", "debug"]}
+            />
+          </Player>
         </div>
       </SwiperSlide>
-      <SwiperSlide className="flex flex-row items-center justify-center mt-6 bg-blue">
-        <div className="w-full h-96 bg-blue-gem">
+      <SwiperSlide className="flex flex-row items-center justify-center mt-6">
+        <div className="w-full h-96 flex flex-col justify-center items-center bg-carousel-1 bg-center bg-contain bg-no-repeat">
+          <Player
+            autoplay
+            loop
+            src="/12766-arrow-animation.json"
+            style={{ height: "200px", width: "200px" }}
+            className="pointer-events-none"
+          >
+            <Controls
+              visible={false}
+              buttons={["play", "repeat", "frame", "debug"]}
+            />
+          </Player>
         </div>
       </SwiperSlide>
       ...
     </Swiper>
   );
-};
+}
