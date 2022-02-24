@@ -46,8 +46,8 @@ export default function Carousel() {
           <Player
             autoplay
             loop
-            src="/12766-arrow-animation.json"
-            style={{ height: "200px", width: "200px" }}
+            src="/34603-magic-particles.json"
+            style={{ height: "300px", width: "300px" }}
             className="pointer-events-none"
           >
             <Controls
@@ -58,12 +58,12 @@ export default function Carousel() {
         </div>
       </SwiperSlide>
       <SwiperSlide className="flex flex-row items-center justify-center mt-6">
-        <div className="w-full h-96 flex flex-col justify-center items-center bg-carousel-1 bg-center bg-contain bg-no-repeat">
+        <div className="w-full h-96 flex flex-col justify-center items-center bg-carousel-2 bg-center bg-contain bg-no-repeat">
           <Player
             autoplay
             loop
-            src="/12766-arrow-animation.json"
-            style={{ height: "200px", width: "200px" }}
+            src="/34603-magic-particles.json"
+            style={{ height: "300px", width: "300px" }}
             className="pointer-events-none"
           >
             <Controls
@@ -74,12 +74,12 @@ export default function Carousel() {
         </div>
       </SwiperSlide>
       <SwiperSlide className="flex flex-row items-center justify-center mt-6">
-        <div className="w-full h-96 flex flex-col justify-center items-center bg-carousel-1 bg-center bg-contain bg-no-repeat">
+        <div className="w-full h-96 flex flex-col justify-center items-center bg-carousel-3 bg-center bg-contain bg-no-repeat">
           <Player
             autoplay
             loop
-            src="/12766-arrow-animation.json"
-            style={{ height: "200px", width: "200px" }}
+            src="/34603-magic-particles.json"
+            style={{ height: "300px", width: "300px" }}
             className="pointer-events-none"
           >
             <Controls
@@ -90,12 +90,12 @@ export default function Carousel() {
         </div>
       </SwiperSlide>
       <SwiperSlide className="flex flex-row items-center justify-center mt-6">
-        <div className="w-full h-96 flex flex-col justify-center items-center bg-carousel-1 bg-center bg-contain bg-no-repeat">
+        <div className="w-full h-96 flex flex-col justify-center items-center bg-carousel-4 bg-center bg-contain bg-no-repeat">
           <Player
             autoplay
             loop
-            src="/12766-arrow-animation.json"
-            style={{ height: "200px", width: "200px" }}
+            src="/34603-magic-particles.json"
+            style={{ height: "300px", width: "300px" }}
             className="pointer-events-none"
           >
             <Controls

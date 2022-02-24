@@ -8,9 +8,9 @@ module.exports = {
               backgroundImage: {
                 'background-default': 'url("/background-default.jpg")',
                 'carousel-1': 'url("/carousel-1.png")',
-                'carousel-2': 'url("/carousel-1.png")',
-                'carousel-3': 'url("/carousel-1.png")',
-                'carousel-4': 'url("/carousel-1.png")',
+                'carousel-2': 'url("/carousel-2.png")',
+                'carousel-3': 'url("/carousel-3.png")',
+                'carousel-4': 'url("/carousel-4.png")',
               },
            },
               colors: {
