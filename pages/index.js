@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Navbar from "../components/Navbar";
-import Carrousel from "../components/Carrousel";
+import Carousel from "../components/Carousel";
 import Header from "../components/Header";
 import { Container, Text, css } from "@nextui-org/react";
 
