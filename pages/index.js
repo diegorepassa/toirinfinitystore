@@ -15,7 +15,7 @@ export default function Home() {
       <div className="h-full w-full backdrop-blur-3xl flex flex-row items-center justify-center">
         <Navbar />
         <div className="h-full w-full relative items-center max-h-full overflow-y-scroll">
-          <Carrousel />
+          <Carousel />
         </div>
       </div>
     </div>
