@@ -1,5 +1,4 @@
-import { Container } from "@nextui-org/react";
-import Link from "next/link";
+import Carrousel from "./Carrousel";
 
 export default function Body() {
   return (

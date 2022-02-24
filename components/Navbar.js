@@ -10,13 +10,13 @@ import { IconContext } from "react-icons/lib";
 
 export default function Navbar() {
   return (
-    <nav className="h-5/6 h- flex flex-col justify-between items-center w-36">
+    <nav className="h-5/6 flex flex-col justify-between items-center w-36">
       <ul className="flex flex-col w-full justify-between items-center">
         <li>
           <img src="/logo-2.png" alt="logo" className="px-8 transition hover:scale-110" />
         </li>
         <li className="w-full flex flex-col justify-center items-center p-4 transition hover:scale-125">
-          <a href="#">
+          <a href="#test">
             <IconContext.Provider value={{ color: "white" }}>
               <Crown size={25} fill="currentColor" />
             </IconContext.Provider>
