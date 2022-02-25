@@ -117,31 +117,6 @@ export const Carousel = () => {
               buttons={["play", "repeat", "frame", "debug"]}
             />
           </Player>
-          <Button auto color="gradient" onClick={handler}>
-            Preview Script
-          </Button>
-          <Modal
-            closeButton
-            aria-labelledby="modal-title"
-            open={visible}
-            onClose={closeHandler}
-            width={800}
-          >
-            <Modal.Header className="flex flex-col">
-              <Text id="modal-title" size={18}>
-                Here you become the champion with
-              </Text>
-              <Text b size={18}>
-                TOIR INFINITY!
-              </Text>
-            </Modal.Header>
-            <Modal.Body>
-              <video autoPlay>
-                <source src="/preview_adc.mp4" type="video/mp4" />
-              </video>
-            </Modal.Body>
-            <Modal.Footer></Modal.Footer>
-          </Modal>
         </div>
       </SwiperSlide>
       <SwiperSlide className="flex flex-row items-center justify-center mt-6">
@@ -158,31 +133,6 @@ export const Carousel = () => {
               buttons={["play", "repeat", "frame", "debug"]}
             />
           </Player>
-          <Button auto color="gradient" onClick={handler}>
-            Preview Script
-          </Button>
-          <Modal
-            closeButton
-            aria-labelledby="modal-title"
-            open={visible}
-            onClose={closeHandler}
-            width={800}
-          >
-            <Modal.Header className="flex flex-col">
-              <Text id="modal-title" size={18}>
-                Here you become the champion with
-              </Text>
-              <Text b size={18}>
-                TOIR ROBUR!
-              </Text>
-            </Modal.Header>
-            <Modal.Body>
-              <video autoPlay>
-                <source src="/preview_adc.mp4" type="video/mp4" />
-              </video>
-            </Modal.Body>
-            <Modal.Footer></Modal.Footer>
-          </Modal>
         </div>
       </SwiperSlide>
       <SwiperSlide className="flex flex-row items-center justify-center mt-6">
@@ -199,31 +149,6 @@ export const Carousel = () => {
               buttons={["play", "repeat", "frame", "debug"]}
             />
           </Player>
-          <Button auto color="gradient" onClick={handler}>
-            Preview Script
-          </Button>
-          <Modal
-            closeButton
-            aria-labelledby="modal-title"
-            open={visible}
-            onClose={closeHandler}
-            width={800}
-          >
-            <Modal.Header className="flex flex-col">
-              <Text id="modal-title" size={18}>
-                Here you become the champion with
-              </Text>
-              <Text b size={18}>
-                BMX INTERNAL!
-              </Text>
-            </Modal.Header>
-            <Modal.Body>
-              <video autoPlay>
-                <source src="/preview_adc.mp4" type="video/mp4" />
-              </video>
-            </Modal.Body>
-            <Modal.Footer></Modal.Footer>
-          </Modal>
         </div>
       </SwiperSlide>
     </Swiper>
